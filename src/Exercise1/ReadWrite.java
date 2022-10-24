@@ -3,10 +3,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-
 class ReadWrite {
   public static void main(String[] args) {
-	  //writing to the file
+    //writing to the file
     try {
       PrintWriter output = new PrintWriter("C:\\Users\\Mohammed SohailUddin\\Desktop\\try\\output.txt");
       String name = "Mohammed Sohail Uddin";
